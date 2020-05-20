@@ -1,15 +1,14 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
 
 import background from '../images/background2.jpg'
 import "../css/skills.css";
 
 function Skills() {
-    const history = useHistory();
-
     function handleImageClicks(){
-        history.push('https://github.com/leanonybr-7579')
+        window.location.replace('https://github.com/leanonybr-7579')
     }
+
+    document.querySelector('body').style.background = "#1e0523";
     return (
         <>
             <img onClick={handleImageClicks}
@@ -18,7 +17,7 @@ function Skills() {
             <img className="background" src={background} alt=""/>
             <div className="block"></div>
 
-            <div className="banner2">
+            <div className="skills-banner">
                 <h1>Marks</h1>
                 <table cellSpacing="5">
                     <thead>

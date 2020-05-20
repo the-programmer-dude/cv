@@ -1,15 +1,14 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
 
 import '../css/homepage.css'
 import background from '../images/background.jpg'
 
 const Homepage = () => {
-    const history = useHistory();
     function handleImageClicks(){
-        history.push('https://github.com/leanonybr-7579')
+        window.location.replace('https://github.com/leanonybr-7579')
     }
 
+    document.querySelector('body').style.background = "#080450";
     return (
         <>
             <img onClick={handleImageClicks}
@@ -18,40 +17,56 @@ const Homepage = () => {
             <img className="background" src={background} alt=""/>
             <div className="block"></div>
 
-            <div className="banner3">
-                <h1>My projects</h1><br/>
-                <div>
-                    <h3>JS-Hunt Products</h3>
-                    <p>
-                        This project is a project that simulates online products info, but all the <br/>
-                        are just frameworks
-                    </p>
-                    <p>Project: <a href="https://github.com/leanonybr-7579/JSHunt-products/">JSHunt-products</a></p>
+            <div className="home-banner">
+                <div className="info">
+                    <h1>Ulisses Carvalho Dantas</h1>
+                    <h3>
+                        Hi, im a Junior Fullstack Developer, i use <strong>React and JQuery</strong> on the frontend and <strong>Node.js</strong><br/>    
+                        So im 13 years old and i have 6 months of experience with Web Development. Well, my brother,<br/>
+                        my two cousins and my father teached me a lot of english and programming things, such as Python,<br/>
+                        C++, C, <a href="https://www.urionlinejudge.com" style={{margin: 0}}>URI</a>, the Brazilian Olympics of Informatic and<br/>
+                        the basics of web development
+                    </h3>
+                    <p><em>
+                        Github profile: <a href="https://github.com/leanonybr-7579">leanonybr-7579</a>
+                    </em></p>
                 </div>
-                <br/>
-    
+                <hr/>
                 <div>
-                    <h3>Calculator</h3>
-                    <p>
-                        This project is very easy to do, but when i created it, i was starting with HTML, CSS and JS.<br/>
-                        So this project marked my starting phase on programming, and that's why im going to include it here
-                    </p>
-                    <p>Project: <a href="https://github.com/leanonybr-7579/Calculator">Calculator</a></p>
+                    <h1>Courses i took</h1>
+                    <ul>
+                        <li>React course(Brazilian): <a href="https://skylab.rocketseat.com.br/node/curso-react-js">Go to react course</a></li>
+                        <li>Node.js course(Brazilian): <a href="https://skylab.rocketseat.com.br/node/curso-node-js">Go to node.js course</a></li>
+                        <li>React Bootcamp(FREE): <a href="https://tylermcginnis.com/free-react-bootcamp/">Go to react bootcamp</a></li>
+                        <li>Web dev bootcamp: <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Go to web dev bootcamp</a></li>
+                        <li>Node.js, Express, MongoDB & More: The Complete Bootcamp 2020: <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">Go to node.js bootcamp</a></li>
+                    </ul>
                 </div>
-                <br/>
+                <hr/>
                 <div>
-                    <h3>DevRadar</h3>
-                    <p>
-                        I like this one. The objective of this application is to find devs who work with the frameworks and<br/>
-                        languages that you provided, and more, it will search based on the current place you are.<br/>
-                        In the frontend you can register your dev, in the mobile you can search for the dev.
-                    </p>
-                    <p>Project: <a href="https://github.com/leanonybr-7579/semanaomnistack10">DevRadar</a></p>
+                    <h1>Future projects</h1>
+
+                    <h3>Facebuk</h3>
+                    <p><em>
+                        To challenge myself, i decided to re-create Facebook but as a lot of people know facebook<br/>
+                        has real time comments, chat, groups, games, profiles and more. 
+                    </em></p>
+                    <p>Project: <strong><em>Comming soon</em></strong></p>
+                    <br/>
+
+                    <h3>Instachat</h3>
+                    <p><em>
+                        Same as facebuk, but this time i will re-create instagram and snapchat together
+                    </em></p>
+                    <p>Project: <strong><em>Comming soon</em></strong></p>
+                    <br/>
+                    <p><strong><span>So, this projects above are just copies, but im going to create original projects soon</span></strong></p>
                 </div>
                 <hr/>
                 <div>
                     <h1>Copyright</h1>
                     <a href="https://www.freepik.com/free-photos-vectors/abstract">Abstract vector created by fullvector - www.freepik.com</a>
+                    <p>Background made by fullvector, more info above</p>
                 </div>
             </div>
         </>

@@ -1,8 +1,4 @@
-body {
-    background: #080450;
-}
-
-div.banner3 {
+div.home-banner {
     background: linear-gradient(180deg, #080450 1%, #1b5583 99%);
 
     border-top: 3px solid #f57b51;

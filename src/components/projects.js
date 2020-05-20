@@ -1,14 +1,11 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
 
 import background from '../images/background3.jpg'
 import '../css/projects.css'
 
 export default function Projects() {
-    const history = useHistory();
-
     function handleImageClicks(){
-        history.push('https://github.com/leanonybr-7579')
+        window.location.replace('https://github.com/leanonybr-7579')
     }
     return (
         <>
@@ -16,7 +13,7 @@ export default function Projects() {
 
             <img id="background" src={background} alt=""/>
             <div id="block"></div>
-            <div className="banner">
+            <div className="projects-banner">
                 <h1>My projects</h1><br/>
                 <div>
                     <h3>JS-Hunt Products</h3>

@@ -1,6 +1,6 @@
 import React from 'react'
 import{
-    HashRouter as Router,
+    BrowserRouter as Router,
     Route,
     Switch
 } from 'react-router-dom'
@@ -13,10 +13,10 @@ export default function RouteConfig(){
     return (
         <Router>
             <Switch>
-                <Route path="/" exact component={Homepage}/>
-                <Route path="/home" exact component={Homepage} />
-                <Route path="/skills" exact component={Skills} />
-                <Route path="/projects" exact component={Projects} />
+                <Route path="/cv/" exact component={Homepage}/>
+                <Route path="/cv/home" exact component={Homepage} />
+                <Route path="/cv/skills" exact component={Skills} />
+                <Route path="/cv/projects" exact component={Projects} />
             </Switch>
         </Router>
     )
