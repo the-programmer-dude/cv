@@ -13,10 +13,10 @@ export default function RouteConfig(){
     return (
         <Router>
             <Switch>
-                <Route path="/" exact component={Homepage}/>
-                <Route path="/home" exact component={Homepage} />
-                <Route path="/skills" exact component={Skills} />
-                <Route path="/projects" exact component={Projects} />
+                <Route path={`${process.env.PUBLIC_URL}/`} exact component={Homepage}/>
+                <Route path={`${process.env.PUBLIC_URL}/home`} exact component={Homepage} />
+                <Route path={`${process.env.PUBLIC_URL}/skills`} exact component={Skills} />
+                <Route path={`${process.env.PUBLIC_URL}/projects`} exact component={Projects} />
             </Switch>
         </Router>
     )
