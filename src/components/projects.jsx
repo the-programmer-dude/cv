@@ -14,6 +14,7 @@ export default function Projects() {
             <img id="background" src={background} alt=""/>
             <div id="block"></div>
             <div className="projects-banner">
+                <hr/>
                 <h1>My projects</h1><br/>
                 <div>
                     <h3>JS-Hunt Products</h3>

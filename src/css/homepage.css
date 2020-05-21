@@ -1,8 +1,6 @@
 div.home-banner {
-    background: linear-gradient(180deg, #080450 1%, #1b5583 99%);
+    background: #080450;
 
-    border-top: 3px solid #f57b51;
-    position: absolute;
     left: 0;
     width: 100%;
 }

@@ -18,6 +18,7 @@ function Skills() {
             <div className="block"></div>
 
             <div className="skills-banner">
+                <hr/>
                 <h1>Marks</h1>
                 <table cellSpacing="5">
                     <thead>

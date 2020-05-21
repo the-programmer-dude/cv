@@ -26,9 +26,11 @@ div.navbar * {
 }
 
 hr {
-    background-color: #f57b51;
-    border-style: none;
-    height: 2px;
+    background-color: transparent;
+    border-style: dotted none none;
+    width: 10%;
+    border-color: #f57b51;
+    border-width: 5px;
 }
 
 div.navbar *:hover {
@@ -51,7 +53,7 @@ img {
     height: 150px;
     border-radius: 175px;
 
-    z-index: 5;
+    z-index: 3;
     position: absolute;
     cursor: pointer;
 

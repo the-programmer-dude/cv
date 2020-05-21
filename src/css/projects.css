@@ -1,10 +1,8 @@
 body{
-    background: #2f0749;
+    background: #29013f;
 }
 
 div.projects-banner{
-    border-top: 3px solid #f57b51;
-    background: #2f0749;
     position: absolute;
     left: 0;
     width: 100%;
