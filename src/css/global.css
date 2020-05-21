@@ -3,8 +3,12 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+footer p.copyright{
+    text-align: center;
+}
+
 div.navbar {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 50px;

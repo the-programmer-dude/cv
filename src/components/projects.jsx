@@ -44,11 +44,6 @@ export default function Projects() {
                     </p>
                     <p>Project: <a href="https://github.com/leanonybr-7579/semanaomnistack10">DevRadar</a></p>
                 </div>
-                <hr/>
-                <div>
-                    <h1>Copyright</h1>
-                    <a href="https://www.freepik.com/free-photos-vectors/abstract">Abstract vector created by fullvector - www.freepik.com</a>
-                </div>
             </div>
         </>
     )

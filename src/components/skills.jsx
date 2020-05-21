@@ -92,12 +92,6 @@ function Skills() {
                     </tbody>
                 </table>
                 <br/>
-                <hr/>
-                <div>
-                    <h1>Copyright</h1>
-
-                    <a href="https://www.freepik.com/free-photos-vectors/technology">Technology vector created by dgim-studio -www.freepik.com</a>
-                </div>
             </div>
         </>
     )

@@ -62,12 +62,6 @@ const Homepage = () => {
                     <br/>
                     <p><strong><span>So, this projects above are just copies, but im going to create original projects soon</span></strong></p>
                 </div>
-                <hr/>
-                <div>
-                    <h1>Copyright</h1>
-                    <a href="https://www.freepik.com/free-photos-vectors/abstract">Abstract vector created by fullvector - www.freepik.com</a>
-                    <p>Background made by fullvector, more info above</p>
-                </div>
             </div>
         </>
     )
