@@ -23,7 +23,7 @@ const Homepage = () => {
                     <h1>Ulisses Carvalho Dantas</h1>
                     <h3>
                         Hi, im a Junior Fullstack Developer, i use <strong>React and JQuery</strong> on the frontend and <strong>Node.js</strong><br/>    
-                        on the backend. So im 13 years old and i have 6 months of experience with Web Development. Well, my brother,<br/>
+                        on the backend. I have 6 months of experience with Web Development. Well, my brother,<br/>
                         my two cousins and my father teached me a lot of english and programming things, such as Python,<br/>
                         C++, C, <a href="https://www.urionlinejudge.com" style={{margin: 0}}>URI</a>, the Brazilian Olympics of Informatic and the basics of web development
                     </h3>
