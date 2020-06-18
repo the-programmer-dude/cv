@@ -19,11 +19,15 @@ p {
 }
 
 .link-home {
+    display: inline-block;
+
     text-decoration: none;
     color: $color1;
 
     border: 1px solid $color1;
+
     padding: 10px;
+    margin-top: 20px;
 
     transition: .2s linear;
 }
