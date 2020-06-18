@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My personal website</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
@@ -84,16 +86,17 @@
     <h1 style="margin-top: 100px; text-align: center;">Projects</h1>
     <section id="projects">
         <div class="card" style="position: relative; top: -40px; padding-top: 25px; box-sizing: border-box;">
-            <img src="/images/ecoleta.png" alt="ECOLETA" class="logo">
-            <img src="/images/ecoleta_black.png" alt="ECOLETABLACK" class="logo2" style="display: none;">
+            <img src="images/ecoleta.png" alt="ECOLETA" class="logo">
+            <img src="images/ecoleta_black.png" alt="ECOLETABLACK" class="logo2" style="display: none;">
 
             <h1>Ecoleta</h1>
-            <p> The objective of this project is to organizations create collection points, where people can collect the items and call or send email to this organizations and they will receive and check this point  </p>
+            <p> The objective of this project is to organizations create collection points, where people can collect the
+                items and call or send email to this organizations and they will receive and check this point </p>
             <a href="https://github.com/the-programmer-dude/ecoleta-project">Go to the Project</a>
         </div>
         <div class="card">
-            <img src="/images/devradar.png" alt="DEVRADAR" class="logo">
-            <img src="/images/devradar_black.png" alt="DEVRADARBLACK" class="logo2" style="display: none;">
+            <img src="images/devradar.png" alt="DEVRADAR" class="logo">
+            <img src="images/devradar_black.png" alt="DEVRADARBLACK" class="logo2" style="display: none;">
 
             <h1>Dev Radar</h1>
             <p> I like this one. The objective of this application is to find devs who work with the frameworks and
@@ -102,11 +105,11 @@
             <a href="https://github.com/the-programmer-dude/semanaomnistack10">Go to the Project</a>
         </div>
         <div class="card">
-            <img src="/images/jshunt.png" alt="JSHUNT" class="logo">
-            <img src="/images/jshunt_black.png" alt="JSHUNTBLACK" class="logo2" style="display: none;">
+            <img src="images/jshunt.png" alt="JSHUNT" class="logo">
+            <img src="images/jshunt_black.png" alt="JSHUNTBLACK" class="logo2" style="display: none;">
 
             <h1>JS-Hunt Products</h1>
-            <p> 
+            <p>
                 This project is an application where you can register your favorite framework and add some info.
                 Well, for senior programmers, this is unuseful, but for starters, this is something really nice,
                 because he can knows the best frameworks and decide who he wants to use
@@ -117,7 +120,7 @@
     </section>
 </body>
 <script>
-    for(let card of document.querySelector('#projects').children){
+    for (let card of document.querySelector('#projects').children) {
         const img1 = card.children[0];
         const img2 = card.children[1];
 
@@ -129,4 +132,5 @@
         }
     }
 </script>
+
 </html>
