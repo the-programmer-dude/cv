@@ -17,31 +17,24 @@ body {
 
 #nav a {
   float: right;
-  position: relative;
   margin: 1.5% 20px 0;
-
+  position: relative;
   border-bottom: 3px solid #fff;
-
   color: #fff;
   font-size: 20px;
   text-decoration: none;
-
-  transition: 0.4s linear;
   -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 #nav a::after {
   content: "";
-
   position: absolute;
   left: 0;
   bottom: -3px;
-
   width: 0%;
   height: 3px;
-
   background-color: #000;
-
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
 }
@@ -69,9 +62,8 @@ body {
   width: 80%;
   height: 600px;
   margin-top: 25px;
-  margin: 20px 10%;
-
   background-color: #543864;
+  margin: 20px 10%;
   color: #fff;
 }
 
@@ -85,13 +77,11 @@ body {
   position: absolute;
   left: 400px;
   top: 50px;
-
   width: 500px;
   margin-top: 12%;
   padding: 50px;
-  text-align: center;
-
   background-color: #543864;
+  text-align: center;
 }
 
 #main .content h1 {
@@ -102,18 +92,14 @@ body {
 .link {
   display: inline-block;
   text-decoration: none;
-
-  padding: 5px;
-  width: 100px;
-  margin-right: 25px;
-
   border: 1px solid #fff;
+  padding: 5px;
   border-radius: 5px;
-
+  width: 100px;
   color: #fff;
-
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  margin-right: 25px;
 }
 
 .link:hover {
@@ -129,7 +115,6 @@ h1 {
 #aboutme {
   width: 100%;
   height: 435px;
-
   background-color: #543864;
   color: #fff;
 }
@@ -152,10 +137,9 @@ h1 {
 #aboutme p {
   float: left;
   position: absolute;
+  font-size: 27px;
   margin: 5% 2% 0;
   width: 800px;
-
-  font-size: 27px;
   text-align: center;
 }
 
@@ -163,9 +147,7 @@ h1 {
   width: 100%;
   height: 200px;
   padding-top: 75px;
-
   background-color: #543864;
-
   color: #fff;
   white-space: nowrap;
 }
@@ -176,36 +158,30 @@ h1 {
 }
 
 #skills .row-1 * {
-  display: inline-block;
-  margin-right: 50px;
-
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 32px;
-
+  margin-right: 50px;
   text-align: center;
+  display: inline-block;
 }
 
 #projects {
   width: 100%;
   height: 600px;
   padding-top: 75px;
-
   background-color: #543864;
   color: #fff;
 }
 
 #projects .card {
-  display: inline-block;
-
   width: 300px;
   height: 485px;
-
   background-color: #202040;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  display: inline-block;
   margin-left: 80px;
-
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
 }
 
 #projects .card:hover {
@@ -221,29 +197,141 @@ h1 {
 #projects .card .logo {
   width: 190px;
   margin-left: 17%;
-
   color: #fff;
-
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
 }
 
-#projects .card p,
-h1 {
+#projects .card h1 {
   text-align: center;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+}
 
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
+#projects .card p {
+  text-align: center;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
 }
 
 #projects .card a {
-  margin: 25%;
-
   color: #fff;
   text-align: center;
+  margin: 25%;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
 
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
+#message-me {
+  width: 100%;
+  height: 600px;
+  padding-top: 75px;
+  background-color: #543864;
+  color: #fff;
+}
+
+#message-me form * {
+  display: block;
+  margin-left: 13%;
+}
+
+#message-me form {
+  margin-left: 30%;
+}
+
+#message-me form .textbox {
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  width: 30.3%;
+}
+
+#message-me form .labelInput {
+  margin-bottom: 50px;
+  margin-left: 14%;
+  position: relative;
+  top: -25px;
+  color: #fff;
+  pointer-events: none;
+}
+
+#message-me .labelInput span {
+  position: absolute;
+  bottom: -15px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#message-me .labelInput::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: #000;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#message-me .textbox:focus + .labelInput span,
+#message-me .textbox:valid + .labelInput span {
+  bottom: 10px;
+  color: #000;
+}
+
+#message-me .textbox:focus + .labelInput::after,
+#message-me .textbox:valid + .labelInput::after {
+  width: 35.5%;
+}
+
+.textarea {
+  -webkit-appearence: none;
+  background: none;
+  outline: none;
+  border: 4px solid #fff;
+  resize: none;
+  position: relative;
+  top: 10px;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+label[for=message] {
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.textarea:focus,
+.textarea:valid {
+  border: 4px solid #000;
+  font-size: 18px;
+}
+
+form button[type=submit] {
+  margin-top: 25px;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  background-color: #202040;
+  color: #fff;
+  border: none;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  cursor: pointer;
+  position: relative;
+  left: 75px;
+}
+
+form button[type=submit]:hover {
+  background-color: transparent;
 }
 
 @media (max-width: 1020px) {

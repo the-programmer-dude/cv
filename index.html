@@ -22,6 +22,7 @@
         <a href="#skills" class="skills">Skills</a>
         <a href="#projects" class="projects">Projects</a>
         <a href="#aboutme" class="aboutme">About Me</a>
+        <a href="#message-me" class="message-me">Message me</a>
     </nav>
 
     <main id="main">
@@ -118,6 +119,29 @@
             </p>
             <a href="https://github.com/the-programmer-dude/JSHunt-products">Go to the Project</a>
         </div>
+    </section>
+
+    <h1 style="margin-top: 100px; text-align: center;">Message me</h1>
+    <section id="message-me">
+        <form name="message-me-form" netlify>
+            <input type="text" name="name" class="textbox" autocomplete="off" required>
+            <label for="name" class="labelInput">
+                <span>Name</span>
+            </label>
+
+            <input type="text" name="email" class="textbox" autocomplete="off" required>
+            <label for="email" class="labelInput">
+                <span>Email</span>
+            </label>
+
+            <label for="message">
+                <span>Message</span>
+            </label>
+            <textarea name="message" class="textarea" cols="40" rows="15" autocomplete="off" required></textarea>
+
+
+            <button type="submit">Send</button>
+        </form>
     </section>
 </body>
 <script>
