@@ -269,7 +269,7 @@ h1 {
   content: "";
   position: absolute;
   top: 22px;
-  left: 0;
+  left: -10px;
   width: 0;
   height: 5px;
   background: #000;
@@ -285,7 +285,7 @@ h1 {
 
 #message-me .textbox:focus + .labelInput::after,
 #message-me .textbox:valid + .labelInput::after {
-  width: 35.5%;
+  width: 35.8%;
 }
 
 .textarea {

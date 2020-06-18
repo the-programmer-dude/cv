@@ -8,5 +8,5 @@ Click [here](https://ulisses-personal-site.netlify.app)
 
 # Problems
 
--- Responsive only for computer, laptop and tablets
+-- Responsive only for computer and laptops
 -- Images take too long to load sometiemes
