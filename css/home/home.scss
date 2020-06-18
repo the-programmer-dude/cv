@@ -1,0 +1,266 @@
+$background1: #202040;
+$background2: #543864;
+
+$color1: #fff;
+$color2: #000;
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    background-color: $background1;
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+#nav {
+    width: 100%;
+    height: 70px;
+    background-color: $background2;
+    color: $color1;
+    outline: none;
+}
+
+#nav a {
+    float: right;
+    margin: 1.5% 20px 0;
+    position: relative;
+    border-bottom: 3px solid $color1;
+
+    color: $color1;
+    font-size: 20px;
+    text-decoration: none;
+
+    transition: 0.4s linear;
+}
+
+#nav a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+
+    width: 0%;
+    height: 3px;
+
+    background-color: $color2;
+    transition: 0.3s linear;
+}
+
+#nav a:hover {
+    color: $color2;
+}
+
+#nav a:hover::after {
+    width: 100%;
+}
+
+#nav i {
+    transform: scale(3);
+    margin: 2%;
+}
+
+#nav p {
+    display: inline;
+}
+
+/* start */
+
+#main {
+    width: 80%;
+    height: 600px;
+    margin-top: 25px;
+    background-color: $background2;
+    margin: 20px 10%;
+    color: $color1;
+}
+
+#main img {
+    width: 50%;
+    height: 100%;
+    background: fixed no-repeat;
+}
+
+#main .content {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+
+    width: 500px;
+    margin-top: 12%;
+    padding: 50px;
+
+    background-color: $background2;
+    text-align: center;
+}
+
+#main .content h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $color1;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    color: $color1;
+    transition: 0.2s linear;
+    margin-right: 25px;
+}
+
+.link:hover {
+    color: $color2;
+    border: 1px solid $color2;
+}
+
+/* about me section*/
+h1 {
+    color: $color1;
+}
+
+#aboutme {
+    width: 100%;
+    height: 435px;
+
+    background-color: $background2;
+    color: $color1;
+}
+
+#aboutme a {
+    text-decoration: underline;
+    color: $color2;
+}
+
+#aboutme a:hover {
+    color: $color1;
+}
+
+#aboutme img {
+    float: right;
+    margin: 50px 100px 0;
+    border-radius: 100%;
+}
+
+#aboutme p {
+    float: left;
+    position: absolute;
+    font-size: 27px;
+    margin: 5% 2% 0;
+    width: 800px;
+    text-align: center;
+}
+
+// skills
+
+#skills {
+    width: 100%;
+    height: 200px;
+    padding-top: 75px;
+
+    background-color: $background2;
+    color: $color1;
+    white-space: nowrap;
+}
+
+#skills .row-1 {
+    margin-left: 70px;
+    white-space: nowrap;
+}
+
+#skills .row-1 * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+//projects
+
+#projects {
+    width: 100%;
+    height: 600px;
+    padding-top: 75px;
+
+    background-color: $background2;
+    color: $color1;
+}
+
+#projects .card {
+    width: 300px;
+    height: 485px;
+    background-color: $background1;
+    transition: .2s linear;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#projects .card:hover {
+    background-color: white;
+    color: #000;
+}
+
+#projects .card:hover>h1,
+#projects .card:hover>a {
+    color: #000;
+}
+
+#projects .card .logo {
+    width: 190px;
+    margin-left: 17%;
+    color: $color1;
+    transition: .5s linear;
+}
+
+#projects .card h1 {
+    text-align: center;
+    transition: .5s linear;
+}
+
+#projects .card p {
+    text-align: center;
+    transition: .5s linear;
+}
+
+#projects .card a {
+    color: $color1;
+    text-align: center;
+    margin: 25%;
+
+    transition: .2s linear;
+}
+
+@media (max-width: 1020px) {
+    #main .content {
+        left: 300px;
+    }
+}
+
+@media (max-width: 1177px) {
+    #aboutme {
+        height: 705px;
+    }
+
+    #aboutme img {
+        margin: 35%;
+    }
+
+    #aboutme p {
+        margin: 5% 8.5% 0;
+    }
+
+    #projects {
+        height: 1200px;
+    }
+
+    #skills {
+        width: 1250px;
+    }
+}
