@@ -4,28 +4,28 @@ main#content {
 }
 
 h1 {
-  color: white;
+  color: #fff;
   font-size: 50px;
   font-weight: 900;
 }
 
 p {
-  color: white;
+  color: #fff;
   font-size: 17px;
   font-weight: 100;
 }
 
 .link-home {
   text-decoration: none;
-  color: white;
-  border: 1px solid white;
+  color: #fff;
+  border: 1px solid #fff;
   padding: 10px;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
 
 .link-home:hover {
-  color: black;
-  border: 1px solid black;
+  color: #000;
+  border: 1px solid #000;
 }
 /*# sourceMappingURL=404.css.map */

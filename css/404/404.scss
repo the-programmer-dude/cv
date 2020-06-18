@@ -1,31 +1,34 @@
+$color1: #fff;
+$color2: #000;
+
 main#content {
     text-align: center;
     margin-top: 15%;
 }
 
 h1 {
-    color: white;
+    color: $color1;
     font-size: 50px;
     font-weight: 900;
 }
 
 p {
-    color: white;
+    color: $color1;
     font-size: 17px;
     font-weight: 100;
 }
 
 .link-home {
     text-decoration: none;
-    color: white;
+    color: $color1;
 
-    border: 1px solid white;
+    border: 1px solid $color1;
     padding: 10px;
 
     transition: .2s linear;
 }
 
 .link-home:hover {
-    color: black;
-    border: 1px solid black;
+    color: $color2;
+    border: 1px solid $color2;
 }
