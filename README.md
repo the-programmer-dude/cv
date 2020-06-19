@@ -8,5 +8,5 @@ Click [here](https://ulisses-personal-site.netlify.app)
 
 # Problems
 
--- Responsive only for computer and laptops
--- Images take too long to load sometiemes
+1. When using on chellphones or tablets, the images and text get disorganized
+2. Images take too long to load sometimes
