@@ -8,5 +8,5 @@ Click [here](https://ulisses-personal-site.netlify.app)
 
 # Problems
 
--- When using on chellphones or tablets, the images and text get disorganized
--- Images take too long to load sometimes
+1. When using on chellphones or tablets, the images and text get disorganized
+2. Images take too long to load sometimes
